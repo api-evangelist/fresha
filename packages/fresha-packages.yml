@@ -1,0 +1,58 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/fresha/api-tools + https://registry.npmjs.org
+note: >-
+  These are Fresha's first-party open-source Web API developer tools (the @fresha
+  "api-tools" monorepo, MIT licensed). They are general-purpose OpenAPI tooling
+  published by Fresha, NOT client SDKs for consuming a Fresha product API — Fresha
+  does not currently publish a public developer API or client libraries. Captured
+  as Packages for provenance; intentionally NOT wired as SDKs.
+packages:
+- language: typescript
+  registry: npm
+  name: "@fresha/openapi-lint"
+  version: 0.4.0
+  url: https://www.npmjs.com/package/@fresha/openapi-lint
+  install: npm install @fresha/openapi-lint
+  official: true
+  description: Linting tool for OpenAPI schemas.
+- language: typescript
+  registry: npm
+  name: "@fresha/openapi-diff"
+  version: 0.5.0
+  url: https://www.npmjs.com/package/@fresha/openapi-diff
+  install: npm install @fresha/openapi-diff
+  official: true
+  description: Diffing/versioning tool for OpenAPI schemas.
+- language: typescript
+  registry: npm
+  name: "@fresha/openapi-codegen-cli"
+  version: 0.7.1
+  url: https://www.npmjs.com/package/@fresha/openapi-codegen-cli
+  install: npm install @fresha/openapi-codegen-cli
+  official: true
+  description: CLI for OpenAPI code generators.
+- language: typescript
+  registry: npm
+  name: "@fresha/api-tools-core"
+  version: 0.7.0
+  url: https://www.npmjs.com/package/@fresha/api-tools-core
+  install: npm install @fresha/api-tools-core
+  official: true
+  description: Core project functionality for the Fresha api-tools suite.
+- language: typescript
+  registry: npm
+  name: "@fresha/openapi-model"
+  version: 0.9.0
+  url: https://www.npmjs.com/package/@fresha/openapi-model
+  install: npm install @fresha/openapi-model
+  official: true
+  description: OpenAPI object model.
+- language: typescript
+  registry: npm
+  name: "@fresha/json-api-model"
+  version: 0.5.0
+  url: https://www.npmjs.com/package/@fresha/json-api-model
+  install: npm install @fresha/json-api-model
+  official: true
+  description: JSON:API object model.

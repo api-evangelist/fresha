@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.freshastatus.com/ + https://www.fresha.com/help-center
+status_page: https://www.freshastatus.com/
+status_components:
+- name: Fresha for Business
+  description: Calendar, booking, client management and point of sale.
+- name: Payments
+  description: Online payments, card terminal transactions and upfront payments.
+- name: Marketplace
+  description: Online booking through your website, social pages and the Fresha app.
+- name: Messaging
+  description: Client notifications and blasts via text, WhatsApp and email.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+notes: >-
+  Fresha publishes a public system status page (freshastatus.com) covering four
+  product components. No public versioning policy, deprecation policy, or developer
+  SLA was found — Fresha does not currently expose a public developer API.
